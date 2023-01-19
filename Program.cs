@@ -26,4 +26,4 @@ app.MapControllers();
 
 await app.RunAsync();
 
-static string Hi() => "Welcome to my Minimal API implementation!";
+static string Hi() => "Welcome to this Minimal API implementation!";
