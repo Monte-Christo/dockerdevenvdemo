@@ -1,6 +1,8 @@
 services:
   app:
-    image: edgarknapp/dockerdevenvdemo:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
     entrypoint:
     - sleep
     - infinity
